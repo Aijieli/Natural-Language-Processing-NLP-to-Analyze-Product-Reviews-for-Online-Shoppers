@@ -5,6 +5,8 @@ The main business objectives for the project are:
 - to predict product ratings based on explicit reviews, using ordinal logistics regression
 - to recommend products to online shoppers based on similarity algorithm (Euclidean)
 
+The project provides a feasible method for the electronics companies to cluster and compare their products with the reviews utilizing NLP method. If we have users' profile data, we could further build recommendation systems to recommend products to the users.
+
 ## Data Characteristics
 - reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B
 - asin - ID of the product, e.g. 0000013714 
@@ -29,7 +31,7 @@ The main business objectives for the project are:
 
 
 <p align="center">
-<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/ordinal%20logistic%20regression%20function.png" width="800" height="100">
+<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/ordinal%20logistic%20regression%20function.png" width="1000" height="100">
 </p>
 
 The disadvantage to run multinomial regression model lies in that the ordering information is thrown away. However, as shown by the above equation, the logarithms in ordinal logistic regression form an arithmetic sequence, thus preserving the ordering information. 
