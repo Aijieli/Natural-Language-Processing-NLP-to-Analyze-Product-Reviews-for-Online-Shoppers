@@ -14,7 +14,7 @@ The main business objectives for the project are:
 - overall - rating of the product 
 - summary - summary of the review • unixReviewTime - time of the review
 <p align="center">
-<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/data%20snap.png" width="800" height="60">
+<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/data%20snap.png" width="600" height="400">
 </p>
 
 ## Key Results and Findings
