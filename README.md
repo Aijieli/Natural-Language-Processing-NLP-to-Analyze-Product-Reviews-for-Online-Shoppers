@@ -29,7 +29,7 @@ The main business objectives for the project are:
 
 
 <p align="center">
-<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/ordinal%20logistic%20regression%20function.png" width="600" height="100">
+<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/ordinal%20logistic%20regression%20function.png" width="800" height="100">
 </p>
 
 The disadvantage to run multinomial regression model lies in that the ordering information is thrown away. However, as shown by the above equation, the logarithms in ordinal logistic regression form an arithmetic sequence, thus preserving the ordering information. 
@@ -37,5 +37,5 @@ The disadvantage to run multinomial regression model lies in that the ordering i
 3. After ordinal logistic regression, we used the coefficients as weights to calculate the euclidean distance between different reviews and aggregated at product level. For different products, we calculate euclidean distance of their aggregated bag-of-words vector (function is shown below). 
 
 <p align="center">
-<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/euclidean%20distance.png" width="600" height="100">
+<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/euclidean%20distance.png" width="500" height="80">
 </p>
