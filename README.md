@@ -16,5 +16,11 @@ The main business objectives for the project are:
 <p align="center">
 <img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/data%20snap.png" width="600" height="200">
 </p>
+
 ## Key Results and Findings
 
+We ran a PCA and graphed the first two PCs for the first 100 reviews. However, after transformation, the distance between different reviews changed a lot. The graph doesn’t reflect the findings in question 5. As the first two principal components explained only 13% the overall variance, it is quite low and leads to the change.
+
+<p align="center">
+<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/PCA.png" width="600" height="200">
+</p>
