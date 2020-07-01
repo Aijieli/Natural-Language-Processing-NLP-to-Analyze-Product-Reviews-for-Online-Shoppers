@@ -19,13 +19,13 @@ The main business objectives for the project are:
 
 ## Key Results and Findings
 
-We ran a PCA and graphed the first two PCs for the first 100 reviews. However, after transformation, the distance between different reviews changed a lot. The graph doesn’t reflect the findings in part 5. As the first two principal components explained only 13% the overall variance, it is quite low and leads to the change.
+1. We ran a PCA and graphed the first two PCs for the first 100 reviews. However, after transformation, the distance between different reviews changed a lot. The graph doesn’t reflect the findings in part 5. As the first two principal components explained only 13% the overall variance, it is quite low and leads to the change.
 
 <p align="center">
 <img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/PCA.png" width="450" height="400">
 </p>
 
-So we used "bag-of-the-words" to put into the model. We used logistic regression to predict the rating of a product here. As the rating is ordinal data, we applied ordinal logistic regression to predict the overall ratings.
+2. So we used "bag-of-the-words" to put into the model. We used logistic regression to predict the rating of a product here. As the rating is ordinal data, we applied ordinal logistic regression to predict the overall ratings.
 
 
 <p align="center">
@@ -33,3 +33,9 @@ So we used "bag-of-the-words" to put into the model. We used logistic regression
 </p>
 
 The disadvantage to run multinomial regression model lies in that the ordering information is thrown away. However, as shown by the above equation, the logarithms in ordinal logistic regression form an arithmetic sequence, thus preserving the ordering information. 
+
+3. After ordinal logistic regression, we used the coefficients as weights to calculate the euclidean distance between different reviews and aggregated at product level. For different products, we calculate euclidean distance of their aggregated bag-of-words vector (function is shown below). 
+
+<p align="center">
+<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/euclidean%20distance.png" width="600" height="100">
+</p>
