@@ -31,7 +31,7 @@ The project provides a feasible method for the electronics companies to cluster 
 
 
 <p align="center">
-<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/ordinal%20logistic%20regression%20function.png" width="1000" height="100">
+<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/ordinal%20logistic%20regression%20function.png" width="900" height="100">
 </p>
 
 The disadvantage to run multinomial regression model lies in that the ordering information is thrown away. However, as shown by the above equation, the logarithms in ordinal logistic regression form an arithmetic sequence, thus preserving the ordering information. 
