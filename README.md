@@ -29,7 +29,7 @@ So we used "bag-of-the-words" to put into the model. We used logistic regression
 
 
 <p align="center">
-<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/ordinal%20logistic%20regression%20function.png" width="450" height="400">
+<img src="https://github.com/Aijieli/Natural-Language-Processing-NLP-to-Analyze-Product-Reviews-for-Online-Shoppers/blob/master/images/ordinal%20logistic%20regression%20function.png" width="600" height="200">
 </p>
 
 The disadvantage to run multinomial regression model lies in that the ordering information is thrown away. However, as shown by the above equation, the logarithms in ordinal logistic regression form an arithmetic sequence, thus preserving the ordering information. 
